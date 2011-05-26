@@ -1,0 +1,13 @@
+snippet getter
+	${1:public} function get ${2:name}(): ${3:type}
+	{
+		return _$2;
+	}
+	${4}
+
+snippet setter
+	${1:public} function set ${2:name}(value: ${3:type}): void
+	{
+		_$2 = value;
+	}
+	${4}
